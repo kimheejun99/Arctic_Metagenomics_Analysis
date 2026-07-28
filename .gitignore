@@ -1,0 +1,35 @@
+# 실제 입력 데이터 (샘플별로 다르므로 저장소에는 포함하지 않음)
+sample_coords.txt
+sample_list.txt
+metadata.txt
+
+# 1차 파이프라인 산출물 (flat 상태)
+*.fastq.gz
+*.kreport
+*.kraken.out
+*_annotated_parsed.tsv
+*_annotated.tsv
+*_category_summary.tsv
+*_count.txt
+*_output.tsv
+*_args_output/
+
+# Step1 정리 후 폴더
+kraken/
+vfdb/
+arg/
+
+# Step0~4 산출물
+sample_map.html
+plots/
+host_tracing/
+merged_tables/
+
+# 로그
+pipeline_execution_log_*.txt
+*.log
+
+# OS / 파이썬 캐시
+.DS_Store
+__pycache__/
+*.pyc
